@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NightFlex Fitness</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet"
+  >
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="header" id="top">
+    <nav class="nav container">
+      <div class="nav__logo">
+        <span class="logo__icon">NF</span>
+        <span class="logo__text">NightFlex</span>
+      </div>
+
+      <button class="nav__toggle" id="nav-toggle" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#hero" class="nav__link">Home</a></li>
+        <li><a href="#classes" class="nav__link">Classes</a></li>
+        <li><a href="#trainers" class="nav__link">Trainers</a></li>
+        <li><a href="#pricing" class="nav__link">Pricing</a></li>
+        <li><a href="#contact" class="nav__link nav__btn">Join Now</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <main>
+    <section class="hero" id="hero">
+      <div class="hero__overlay"></div>
+      <div class="container hero__content">
+        <div class="hero__text glass">
+          <p class="hero__eyebrow">24/7 Access · Personal Training · Nutrition</p>
+          <h1>Train in the <span>Dark</span>, Shine in the Light.</h1>
+          <p class="hero__subtitle">
+            NightFlex is your all-access pass to elite training, strength building,
+            and performance coaching in a premium, minimal environment.
+          </p>
+          <div class="hero__actions">
+            <a href="#pricing" class="btn btn--primary">Get Membership</a>
+            <a href="#classes" class="btn btn--ghost">View Classes</a>
+          </div>
+          <div class="hero__stats">
+            <div>
+              <h3>150+</h3>
+              <p>Active Members</p>
+            </div>
+            <div>
+              <h3>20+</h3>
+              <p>Expert Trainers</p>
+            </div>
+            <div>
+              <h3>24/7</h3>
+              <p>Open Hours</p>
+            </div>
+          </div>
+        </div>
+        <div class="hero__image glass">
+          <div class="hero__badge">
+            <span>NEW</span>
+            NightFlex Elite Program
+          </div>
+          <div class="hero__image-inner">
+            <!-- Replace with your image -->
+            <img src="images/hero-gym.jpg" alt="Gym workout" />
+          </div>
+          <div class="hero__mini-card">
+            <p>Tonight's Capacity</p>
+            <h3>32 / 80</h3>
+            <span class="pill pill--green">Plenty of space</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Classes -->
+    <section class="section" id="classes">
+      <div class="container">
+        <div class="section__header">
+          <h2>Our Classes</h2>
+          <p>Choose a program that matches your goals.</p>
+        </div>
+
+        <div class="grid grid--3">
+          <article class="card glass">
+            <div class="card__tag">Strength</div>
+            <img src="images/class-strength.jpg" alt="Strength training" class="card__img" />
+            <div class="card__body">
+              <h3>Power & Strength</h3>
+              <p>
+                Build raw strength with compound lifts, progressive overload,
+                and expert supervision.
+              </p>
+              <ul class="card__list">
+                <li>Barbell training</li>
+                <li>Strength circuits</li>
+                <li>Form correction</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="card glass">
+            <div class="card__tag">Cardio</div>
+            <img src="images/class-cardio.jpg" alt="Cardio class" class="card__img" />
+            <div class="card__body">
+              <h3>HIIT & Conditioning</h3>
+              <p>
+                Burn maximum calories in minimal time with high-intensity interval training.
+              </p>
+              <ul class="card__list">
+                <li>Fat-burning sessions</li>
+                <li>Endurance building</li>
+                <li>Heart-rate tracking</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="card glass">
+            <div class="card__tag">Mind & Body</div>
+            <img src="images/class-yoga.jpg" alt="Yoga class" class="card__img" />
+            <div class="card__body">
+              <h3>Mobility & Flow</h3>
+              <p>
+                Improve flexibility, posture, and recovery with guided mobility sessions.
+              </p>
+              <ul class="card__list">
+                <li>Yoga-inspired flows</li>
+                <li>Deep stretching</li>
+                <li>Recovery focus</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Trainers -->
+    <section class="section" id="trainers">
+      <div class="container">
+        <div class="section__header">
+          <h2>Meet Your Trainers</h2>
+          <p>Certified professionals guiding you every rep.</p>
+        </div>
+
+        <div class="grid grid--3">
+          <article class="card glass card--trainer">
+            <img src="images/trainer-1.jpg" alt="Trainer 1" class="trainer__img" />
+            <div class="card__body">
+              <h3>Alex Carter</h3>
+              <p class="trainer__role">Strength & Performance Coach</p>
+              <p class="trainer__bio">
+                Specialized in powerlifting, movement efficiency, and performance optimization.
+              </p>
+            </div>
+          </article>
+
+          <article class="card glass card--trainer">
+            <img src="images/trainer-2.jpg" alt="Trainer 2" class="trainer__img" />
+            <div class="card__body">
+              <h3>David Stone</h3>
+              <p class="trainer__role">Fat Loss & Conditioning Expert</p>
+              <p class="trainer__bio">
+                Known for intense yet sustainable fat-loss programs with smart nutrition.
+              </p>
+            </div>
+          </article>
+
+          <article class="card glass card--trainer">
+            <img src="images/trainer-3.jpg" alt="Trainer 3" class="trainer__img" />
+            <div class="card__body">
+              <h3>Ravi Kumar</h3>
+              <p class="trainer__role">Mobility & Rehab Specialist</p>
+              <p class="trainer__bio">
+                Focused on joint health, corrective exercises, and long-term mobility.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing -->
+    <section class="section" id="pricing">
+      <div class="container">
+        <div class="section__header">
+          <h2>Membership Plans</h2>
+          <p>Simple, transparent, no hidden fees.</p>
+        </div>
+
+        <div class="pricing__toggle glass">
+          <span class="pricing__label pricing__label--active" data-plan="monthly">Monthly</span>
+          <span class="pricing__switch" id="pricing-switch">
+            <span class="pricing__knob"></span>
+          </span>
+          <span class="pricing__label" data-plan="yearly">Yearly <span class="pill pill--green">Save 20%</span></span>
+        </div>
+
+        <div class="grid grid--3" id="pricing-cards">
+          <article class="card glass card--pricing">
+            <h3>Basic</h3>
+            <p class="pricing__price"><span class="currency">$</span><span class="amount" data-monthly="19" data-yearly="15">19</span><span class="per">/mo</span></p>
+            <p class="pricing__subtitle">Perfect for beginners starting their journey.</p>
+            <ul class="card__list">
+              <li>Gym floor access</li>
+              <li>Locker room access</li>
+              <li>1 free trainer session</li>
+            </ul>
+            <button class="btn btn--ghost btn--full">Choose Basic</button>
+          </article>
+
+          <article class="card glass card--pricing card--featured">
+            <div class="card__badge">Most Popular</div>
+            <h3>Pro</h3>
+            <p class="pricing__price"><span class="currency">$</span><span class="amount" data-monthly="39" data-yearly="32">39</span><span class="per">/mo</span></p>
+            <p class="pricing__subtitle">For serious lifters and consistent grinders.</p>
+            <ul class="card__list">
+              <li>All Basic features</li>
+              <li>Unlimited group classes</li>
+              <li>Personalized training plan</li>
+              <li>Basic nutrition guide</li>
+            </ul>
+            <button class="btn btn--primary btn--full">Choose Pro</button>
+          </article>
+
+          <article class="card glass card--pricing">
+            <h3>Elite</h3>
+            <p class="pricing__price"><span class="currency">$</span><span class="amount" data-monthly="69" data-yearly="55">69</span><span class="per">/mo</span></p>
+            <p class="pricing__subtitle">1:1 coaching for maximum transformation.</p>
+            <ul class="card__list">
+              <li>All Pro features</li>
+              <li>Weekly 1:1 coaching</li>
+              <li>Advanced nutrition tracking</li>
+              <li>Performance assessments</li>
+            </ul>
+            <button class="btn btn--ghost btn--full">Choose Elite</button>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact / CTA -->
+    <section class="section" id="contact">
+      <div class="container contact">
+        <div class="contact__info glass">
+          <h2>Book a Free Trial Session</h2>
+          <p>
+            Experience NightFlex before you commit. Get a full gym tour, fitness
+            assessment, and personalized recommendation.
+          </p>
+          <ul class="contact__details">
+            <li><strong>Location:</strong> 12B Night Street, Downtown</li>
+            <li><strong>Phone:</strong> +1 (555) 012-3456</li>
+            <li><strong>Email:</strong> hello@nightflex.fit</li>
+          </ul>
+        </div>
+
+        <form class="contact__form glass" id="contact-form">
+          <div class="form__group">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" placeholder="Your name" required />
+          </div>
+          <div class="form__group">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="you@example.com" required />
+          </div>
+          <div class="form__group">
+            <label for="goal">Your Goal</label>
+            <select id="goal" required>
+              <option value="">Select your main goal</option>
+              <option>Lose fat</option>
+              <option>Build muscle</option>
+              <option>Increase strength</option>
+              <option>Improve mobility</option>
+            </select>
+          </div>
+          <div class="form__group">
+            <label for="message">Additional Details</label>
+            <textarea id="message" rows="3" placeholder="Tell us anything important..."></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary btn--full">
+            Request Free Trial
+          </button>
+          <p class="form__note" id="form-status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>© <span id="year"></span> NightFlex Fitness. All rights reserved.</p>
+      <a href="#top" class="footer__top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
