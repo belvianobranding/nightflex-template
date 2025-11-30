@@ -221,7 +221,7 @@ body {
   overflow: hidden;
 
   /* 🔥 Background image for home section */
-  background-image: url("/images/hero-bg.jpg.jpg");
+  background-image: url("/images/hero-bg.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -688,3 +688,4 @@ textarea:focus {
     padding: 3.7rem 0;
   }
 }
+
